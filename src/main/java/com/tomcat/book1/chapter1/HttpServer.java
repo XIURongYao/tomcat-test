@@ -29,7 +29,7 @@ public class HttpServer {
 	
 	public void await(){
 		ServerSocket serverSocket = null;
-		int port = 8080;
+		int port = 80;
 		try{
 			serverSocket = new ServerSocket(port, 3, InetAddress.getByName("127.0.0.1"));
 		}catch(IOException e){
