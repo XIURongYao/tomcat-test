@@ -5,7 +5,7 @@ import java.io.InputStream;
 
 /** 
  * 类名: Request.java    
- * 描述: 这个类是用来
+ * 描述: 这个类是用来处理请求的类
  * 作者: honourx@foxmail.com  
  * 时间: 2018-06-28 23:23  
  */

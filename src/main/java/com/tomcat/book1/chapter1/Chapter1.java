@@ -10,6 +10,7 @@ import java.net.UnknownHostException;
 
 /**
  * 深入剖析tomcat第一章示例01。
+ * 一个简单的web服务器代码，只有三个类。
  * 作者: honourx
  * 时间: 2018年6月27日  下午9:57:24
  */

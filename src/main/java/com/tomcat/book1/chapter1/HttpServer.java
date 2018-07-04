@@ -10,7 +10,7 @@ import java.net.Socket;
 
 /** 
  * 类名: HttpServer.java    
- * 描述: 这个类是用来
+ * 描述: 这个类是用来入口类，接受客户端的请求返回响应
  * 作者: honourx@foxmail.com  
  * 时间: 2018-06-28 22:53  
  */
@@ -29,9 +29,9 @@ public class HttpServer {
 	
 	public void await(){
 		ServerSocket serverSocket = null;
-		int port = 80;
+		int port = 8080;
 		try{
-			serverSocket = new ServerSocket(port, 3, InetAddress.getByName("127.0.0.1"));
+			serverSocket = new ServerSocket(port, 1, InetAddress.getByName("127.0.0.1"));
 		}catch(IOException e){
 			e.printStackTrace();
 			System.exit(1);
