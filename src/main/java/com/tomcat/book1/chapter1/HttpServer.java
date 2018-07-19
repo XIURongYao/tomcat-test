@@ -9,14 +9,17 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /** 
- * 类名: HttpServer.java    
- * 描述: 这个类是用来入口类，接受客户端的请求返回响应
- * 作者: honourx@foxmail.com  
- * 时间: 2018-06-28 22:53  
+ * 类名: HttpServer.java <br>   
+ * 描述: 这个类是用来入口类，接受客户端的请求返回响应 <br>
+ * 作者: honourx@foxmail.com <br> 
+ * 时间: 2018-06-28 22:53 <br> 
  */
 public class HttpServer {
 	
 	public static final String WEB_ROOT = System.getProperty("user.dir") + File.separator + "webroot";
+	// 
+	// File.separator -> File.class -> FileSystem.class -> WinNTFileSystem.class
+	// altSlash = (this.slash == '\\') ? '/' : '\\';  系统分割符
 	
 	public static final String SHUTDOWN_COMMAND = "/SHUTDOWN";
 	
